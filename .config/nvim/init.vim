@@ -182,6 +182,8 @@ nmap <silent> t<C-l> :w<CR>:TestLast<CR>
 nmap <silent> t<C-g> :TestVisit<CR>
 
 set expandtab
+:set tabstop=2
+:set shiftwidth=0 "use tabstop"
 
 " Hightlight tabs and trailing whitespaces
 set list
