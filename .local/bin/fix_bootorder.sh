@@ -7,7 +7,7 @@ if [ $command == 'y' ]; then
   (
     set -x
     sudo mv /boot/efi/EFI/Microsoft/Boot/bootmgfw.efi /boot/efi/Start_Windows10.efi
-    sudo cp /boot/efi/EFI/fedora/grubx64.efi /boot/efi/EFI/Microsoft/Boot/bootmgfw.efi
+    sudo cp /boot/efi/EFI/ubuntu/grubx64.efi /boot/efi/EFI/Microsoft/Boot/bootmgfw.efi
   )
   echo Done
   else
