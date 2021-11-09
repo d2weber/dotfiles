@@ -12,3 +12,4 @@
   cp = checkout -p
   cm = commit -m
   lg = log --max-count 10
+  dotfiles = !git --git-dir=$HOME/dotfiles.git/ --work-tree=$HOME
