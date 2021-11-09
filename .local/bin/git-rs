@@ -1,0 +1,3 @@
+#!/bin/env bash
+
+find . -maxdepth 1 -mindepth 1 -type d -printf 'Status of `%P`\n' -exec sh -c 'git -C {} status -sb; echo' \;
