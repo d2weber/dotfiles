@@ -47,6 +47,8 @@ Plug 'clojure-vim/vim-jack-in'
 Plug 'tpope/vim-dispatch'
 Plug 'radenling/vim-dispatch-neovim'
 
+Plug 'godlygeek/tabular'
+
 call plug#end()
 
 " ============================================================================
