@@ -1,6 +1,7 @@
 [user]
 	name = d2weber
 	email = 29163905+d2weber@users.noreply.github.com
+	signingkey = 400413E7AC36EEA4
 [includeIf "gitdir:~/gl/**"]
 	path = ~/gl/.gitconfig
 [format]
@@ -13,3 +14,5 @@
 	cm = commit -m
 	lg = log --max-count 10
 	dotfiles = !git --git-dir=$HOME/dotfiles.git/ --work-tree=$HOME
+[init]
+	defaultBranch = main
