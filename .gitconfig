@@ -9,6 +9,7 @@
 	pretty = format:%C(auto,yellow)%h %C(auto,blue)%<(10,trunc)%ar %C(auto,green)%<(9,trunc)%aE %C(auto,reset)%s%C(auto,red)% gD% D
 [core]
 	editor = nvim
+	excludesfile = ~/.global_gitignore
 [alias]
 	ap = add -p
 	cp = checkout -p
