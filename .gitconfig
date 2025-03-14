@@ -18,3 +18,7 @@
 	dotfiles = !git --git-dir=$HOME/dotfiles.git/ --work-tree=$HOME
 [init]
 	defaultBranch = main
+[column]
+	ui = auto
+[branch]
+	sort = -committerdate
