@@ -1,6 +1,6 @@
 [user]
 	name = d2weber
 	email = d2weber@noreply.codeberg.org
-	signkey = CA302F2A31718E98
+	signkey = 874D23880D1046CA
 [commit]
 	gpgsign = true
