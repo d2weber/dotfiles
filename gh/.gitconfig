@@ -1,6 +1,6 @@
 [user]
 	name = d2weber
 	email = 29163905+d2weber@users.noreply.github.com
-	signingkey = 400413E7AC36EEA4
+	signingkey = 5804152F04FC3D99
 [commit]
 	gpgsign = true
